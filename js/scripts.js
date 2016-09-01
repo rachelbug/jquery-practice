@@ -12,9 +12,13 @@ $(function(){
 });
 
 $(function(){
-  $("#clickme").click(function(){
-    $("#textfade").fadeIn();
-  });
+ $("#clickme").click(function(){
+   if($("#textfade").is(':visible')) {
+     $("#textfade").fadeOut();
+   } else {
+     $("#textfade").fadeIn();
+   }
+ });
 });
 
 // I want to make the bottom paragraph fade in when I click on the "I would be happy to tell you more..." link
