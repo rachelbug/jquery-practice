@@ -10,3 +10,16 @@
 .clickable:hover {
   text-decoration: underline;
 }
+
+#clickme {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+#textfade {
+  display: none;
+}
+
+#clickme:hover {
+  text-decoration: underline;
+ }
